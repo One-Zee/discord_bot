@@ -1,0 +1,27 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "node app used for managing discord_bot\u001b[D\u001b[D\u001b[ ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/One-Zee/discord_bot.git"
+  },
+  "author": "Harun ibrahimović",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/One-Zee/discord_bot/issues"
+  },
+  "homepage": "https://github.com/One-Zee/discord_bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
