@@ -1,9 +1,11 @@
-// Function to decide winner
+/**
+ * Function that returns game result.
+ */
 const winner = (player,computer) => {
     player = player.toLowerCase();
     computer = computer.toLowerCase();
     if(player === computer){
-       return 'Tie'
+       return 'Tie';
     }
     else if(player === 'rock'){
         if(computer === 'paper'){
@@ -35,6 +37,10 @@ const winner = (player,computer) => {
     }
 }
 
+/**
+ * Returns random hand.
+ * @returns { String } 'rock' || 'paper' || 'scissors'
+ */
 const computerPlay = () =>{
     const options = ['rock','paper','scissors'];
     return options[Math.floor(Math.random() * options.length)]
